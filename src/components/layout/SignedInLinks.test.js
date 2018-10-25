@@ -1,9 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import SignedInLinks from "./SignedInLinks";
+import { MemoryRouter } from "react-router-dom"; //Required when component uses a Route or Link
+import renderer from "react-test-renderer";
 
-it("renders without crashing", () => {
-	const div = document.createElement("div");
-	ReactDOM.render(<SignedInLinks />, div);
-	ReactDOM.unmountComponentAtNode(div);
+test("SignedInLinks renders without crashing", () => {
+	const component = renderer.create(
+		<MemoryRouter initialEntries={["/"]}>
+			<SignedInLinks />
+		</MemoryRouter>
+	);
+	expect(component.toJSON()).toMatchSnapshot();
 });

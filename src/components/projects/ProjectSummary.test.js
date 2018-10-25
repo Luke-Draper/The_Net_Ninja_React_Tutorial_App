@@ -1,9 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import ProjectSummary from "./ProjectSummary";
+import { MemoryRouter } from "react-router-dom"; //Required when component uses a Route or Link
+import renderer from "react-test-renderer";
 
-it("renders without crashing", () => {
-	const div = document.createElement("div");
-	ReactDOM.render(<ProjectSummary />, div);
-	ReactDOM.unmountComponentAtNode(div);
+test("ProjectSummary renders without crashing", () => {
+	const component = renderer.create(
+		<MemoryRouter initialEntries={["/"]}>
+			<ProjectSummary />
+		</MemoryRouter>
+	);
+	expect(component.toJSON()).toMatchSnapshot();
 });

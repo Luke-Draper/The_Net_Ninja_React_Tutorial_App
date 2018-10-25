@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="nav-wrapper grey darken-3"
+  >
+    <div
+      className="container"
+    >
+      <a
+        className="brand-logo"
+        href="/"
+        onClick={[Function]}
+      >
+        MarioPlan
+      </a>
+    </div>
+  </nav>
+  <h1>
+    Mario Plan
+  </h1>
+</div>
+`;

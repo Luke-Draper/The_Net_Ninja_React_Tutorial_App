@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignedInLinks renders without crashing 1`] = `
+<nav
+  className="signed-in-links"
+>
+  <h2>
+    SignedInLinks
+  </h2>
+</nav>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectSummary renders without crashing 1`] = `
+<div
+  className="project-summary"
+>
+  <h2>
+    ProjectSummary
+  </h2>
+</div>
+`;

@@ -1,9 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import ProjectList from "./ProjectList";
+import { MemoryRouter } from "react-router-dom"; //Required when component uses a Route or Link
+import renderer from "react-test-renderer";
 
-it("renders without crashing", () => {
-	const div = document.createElement("div");
-	ReactDOM.render(<ProjectList />, div);
-	ReactDOM.unmountComponentAtNode(div);
+test("ProjectList renders without crashing", () => {
+	const component = renderer.create(
+		<MemoryRouter initialEntries={["/"]}>
+			<ProjectList />
+		</MemoryRouter>
+	);
+	expect(component.toJSON()).toMatchSnapshot();
 });
