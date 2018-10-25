@@ -1,13 +1,22 @@
-import React, { Component } from "react";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-class SignedInLinks extends Component {
-	render() {
-		return (
-			<nav className="signed-in-links">
-				<h2>SignedInLinks</h2>
-			</nav>
-		);
-	}
-}
+const SignedInLinks = () => {
+	return (
+		<ul className="right">
+			<li>
+				<NavLink to="/">New Project</NavLink>
+			</li>
+			<li>
+				<NavLink to="/">Log Out</NavLink>
+			</li>
+			<li>
+				<NavLink to="/" className="btn btn-floating red lighten-1">
+					LD
+				</NavLink>
+			</li>
+		</ul>
+	);
+};
 
 export default SignedInLinks;

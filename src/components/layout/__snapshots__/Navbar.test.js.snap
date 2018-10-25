@@ -14,6 +14,69 @@ exports[`Navbar renders without crashing 1`] = `
     >
       MarioPlan
     </a>
+    <ul
+      className="right"
+    >
+      <li>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          New Project
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Log Out
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          className="btn btn-floating red lighten-1 active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          LD
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="right"
+    >
+      <li>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Sign Up
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current="page"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Log In
+        </a>
+      </li>
+    </ul>
   </div>
 </nav>
 `;
