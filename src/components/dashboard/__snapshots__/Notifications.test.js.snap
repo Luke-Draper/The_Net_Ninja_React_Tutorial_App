@@ -1,11 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Notifications renders without crashing 1`] = `
-<div
-  className="notifications"
->
-  <h3>
+<div>
+  <p>
     Notifications
-  </h3>
+  </p>
 </div>
 `;

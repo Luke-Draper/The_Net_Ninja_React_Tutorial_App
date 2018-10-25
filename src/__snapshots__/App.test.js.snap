@@ -82,8 +82,93 @@ exports[`App renders without crashing 1`] = `
       </ul>
     </div>
   </nav>
-  <h1>
-    Mario Plan
-  </h1>
+  <div
+    className="dashboard container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col s12 m6"
+      >
+        <div
+          className="project-list section"
+        >
+          <div
+            className="card z-depth-0 project-summary"
+          >
+            <div
+              className="card-content grey-text text-darken-3"
+            >
+              <span
+                className="card-title"
+              >
+                Project Title
+              </span>
+              <p>
+                Posted by Luke Draper
+              </p>
+              <p
+                className="grey-text"
+              >
+                3rd September, 2018
+              </p>
+            </div>
+          </div>
+          <div
+            className="card z-depth-0 project-summary"
+          >
+            <div
+              className="card-content grey-text text-darken-3"
+            >
+              <span
+                className="card-title"
+              >
+                Project Title
+              </span>
+              <p>
+                Posted by Luke Draper
+              </p>
+              <p
+                className="grey-text"
+              >
+                3rd September, 2018
+              </p>
+            </div>
+          </div>
+          <div
+            className="card z-depth-0 project-summary"
+          >
+            <div
+              className="card-content grey-text text-darken-3"
+            >
+              <span
+                className="card-title"
+              >
+                Project Title
+              </span>
+              <p>
+                Posted by Luke Draper
+              </p>
+              <p
+                className="grey-text"
+              >
+                3rd September, 2018
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col s12 m5 offset-m1"
+      >
+        <div>
+          <p>
+            Notifications
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 `;
