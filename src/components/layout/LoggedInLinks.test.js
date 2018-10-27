@@ -1,12 +1,12 @@
 import React from "react";
-import SignIn from "./SignIn";
+import LoggedInLinks from "./LoggedInLinks";
 import { MemoryRouter } from "react-router-dom"; //Required when component uses a Route or Link
 import renderer from "react-test-renderer";
 
-test("SignIn renders without crashing", () => {
+test("LoggedInLinks renders without crashing", () => {
 	const component = renderer.create(
 		<MemoryRouter initialEntries={["/"]}>
-			<SignIn />
+			<LoggedInLinks />
 		</MemoryRouter>
 	);
 	expect(component.toJSON()).toMatchSnapshot();

@@ -18,7 +18,7 @@ exports[`App renders without crashing 1`] = `
         MarioPlan
       </a>
       <ul
-        className="right SignedInLinks"
+        className="right LoggedInLinks"
       >
         <li>
           <a

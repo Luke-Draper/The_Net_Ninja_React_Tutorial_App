@@ -1,41 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SignUp renders without crashing 1`] = `
+exports[`LogIn renders without crashing 1`] = `
 <div
-  className="container SignUp"
+  className="container LogIn"
 >
   <form
     className="white"
     onSubmit={[Function]}
   >
-    <div
-      className="input-field"
-    >
-      <label
-        htmlFor="first-name"
-      >
-        First Name
-      </label>
-      <input
-        id="first-name"
-        onChange={[Function]}
-        type="text"
-      />
-    </div>
-    <div
-      className="input-field"
-    >
-      <label
-        htmlFor="last-name"
-      >
-        Last Name
-      </label>
-      <input
-        id="last-name"
-        onChange={[Function]}
-        type="text"
-      />
-    </div>
     <div
       className="input-field"
     >
@@ -70,7 +42,7 @@ exports[`SignUp renders without crashing 1`] = `
       <button
         className="btn red lighten-1 z-depth-0"
       >
-        Sign Up
+        Log In
       </button>
     </div>
   </form>

@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const SignedInLinks = () => {
+const LoggedInLinks = () => {
 	return (
-		<ul className="right SignedInLinks">
+		<ul className="right LoggedInLinks">
 			<li>
 				<NavLink to="/">New Project</NavLink>
 			</li>
@@ -19,4 +19,4 @@ const SignedInLinks = () => {
 	);
 };
 
-export default SignedInLinks;
+export default LoggedInLinks;

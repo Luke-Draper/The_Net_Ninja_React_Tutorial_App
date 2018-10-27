@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SignedInLinks renders without crashing 1`] = `
+exports[`LoggedInLinks renders without crashing 1`] = `
 <ul
-  className="right SignedInLinks"
+  className="right LoggedInLinks"
 >
   <li>
     <a
