@@ -2,10 +2,24 @@
 
 exports[`ProjectSummary renders without crashing 1`] = `
 <div
-  className="project-summary"
+  className="card z-depth-0 project-summary"
 >
-  <h2>
-    ProjectSummary
-  </h2>
+  <div
+    className="card-content grey-text text-darken-3"
+  >
+    <span
+      className="card-title"
+    >
+      Project Title
+    </span>
+    <p>
+      Posted by Luke Draper
+    </p>
+    <p
+      className="grey-text"
+    >
+      3rd September, 2018
+    </p>
+  </div>
 </div>
 `;
