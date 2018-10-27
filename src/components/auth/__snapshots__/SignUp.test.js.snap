@@ -8,16 +8,21 @@ exports[`SignUp renders without crashing 1`] = `
     className="white"
     onSubmit={[Function]}
   >
+    <h5
+      className="grey-text text-darken-3"
+    >
+      Sign Up
+    </h5>
     <div
       className="input-field"
     >
       <label
-        htmlFor="first-name"
+        htmlFor="firstName"
       >
         First Name
       </label>
       <input
-        id="first-name"
+        id="firstName"
         onChange={[Function]}
         type="text"
       />
@@ -26,12 +31,12 @@ exports[`SignUp renders without crashing 1`] = `
       className="input-field"
     >
       <label
-        htmlFor="last-name"
+        htmlFor="lastName"
       >
         Last Name
       </label>
       <input
-        id="last-name"
+        id="lastName"
         onChange={[Function]}
         type="text"
       />
@@ -60,6 +65,20 @@ exports[`SignUp renders without crashing 1`] = `
       </label>
       <input
         id="password"
+        onChange={[Function]}
+        type="password"
+      />
+    </div>
+    <div
+      className="input-field"
+    >
+      <label
+        htmlFor="confirmPassword"
+      >
+        Confirm Password
+      </label>
+      <input
+        id="confirmPassword"
         onChange={[Function]}
         type="password"
       />

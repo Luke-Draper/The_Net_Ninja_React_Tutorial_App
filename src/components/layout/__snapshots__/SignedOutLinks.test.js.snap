@@ -6,22 +6,18 @@ exports[`SignedOutLinks renders without crashing 1`] = `
 >
   <li>
     <a
-      aria-current="page"
-      className="active"
-      href="/"
+      aria-current={null}
+      href="/signup"
       onClick={[Function]}
-      style={Object {}}
     >
       Sign Up
     </a>
   </li>
   <li>
     <a
-      aria-current="page"
-      className="active"
-      href="/"
+      aria-current={null}
+      href="/login"
       onClick={[Function]}
-      style={Object {}}
     >
       Log In
     </a>
