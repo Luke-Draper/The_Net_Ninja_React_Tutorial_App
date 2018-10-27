@@ -22,11 +22,9 @@ exports[`App renders without crashing 1`] = `
       >
         <li>
           <a
-            aria-current="page"
-            className="active"
-            href="/"
+            aria-current={null}
+            href="/create"
             onClick={[Function]}
-            style={Object {}}
           >
             New Project
           </a>
