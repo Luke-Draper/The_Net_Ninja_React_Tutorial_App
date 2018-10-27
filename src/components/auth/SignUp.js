@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 
 class SignUp extends Component {
+	state = {};
 	render() {
 		return (
-			<div className="sign-up">
-				<h2>SignUp</h2>
+			<div className="SignUp">
+				<p>SignUp</p>
 			</div>
 		);
 	}

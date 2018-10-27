@@ -2,7 +2,7 @@
 
 exports[`SignedInLinks renders without crashing 1`] = `
 <ul
-  className="right"
+  className="right SignedInLinks"
 >
   <li>
     <a

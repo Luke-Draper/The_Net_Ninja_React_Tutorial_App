@@ -2,10 +2,10 @@
 
 exports[`SignUp renders without crashing 1`] = `
 <div
-  className="sign-up"
+  className="SignUp"
 >
-  <h2>
+  <p>
     SignUp
-  </h2>
+  </p>
 </div>
 `;

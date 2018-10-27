@@ -2,7 +2,7 @@
 
 exports[`Navbar renders without crashing 1`] = `
 <nav
-  className="nav-wrapper grey darken-3"
+  className="nav-wrapper grey darken-3 Navbar"
 >
   <div
     className="container"
@@ -15,7 +15,7 @@ exports[`Navbar renders without crashing 1`] = `
       MarioPlan
     </a>
     <ul
-      className="right"
+      className="right SignedInLinks"
     >
       <li>
         <a
@@ -52,7 +52,7 @@ exports[`Navbar renders without crashing 1`] = `
       </li>
     </ul>
     <ul
-      className="right"
+      className="right SignedOutLinks"
     >
       <li>
         <a

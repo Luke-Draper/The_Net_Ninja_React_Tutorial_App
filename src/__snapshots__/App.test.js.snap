@@ -5,7 +5,7 @@ exports[`App renders without crashing 1`] = `
   className="App"
 >
   <nav
-    className="nav-wrapper grey darken-3"
+    className="nav-wrapper grey darken-3 Navbar"
   >
     <div
       className="container"
@@ -18,7 +18,7 @@ exports[`App renders without crashing 1`] = `
         MarioPlan
       </a>
       <ul
-        className="right"
+        className="right SignedInLinks"
       >
         <li>
           <a
@@ -55,7 +55,7 @@ exports[`App renders without crashing 1`] = `
         </li>
       </ul>
       <ul
-        className="right"
+        className="right SignedOutLinks"
       >
         <li>
           <a
@@ -83,7 +83,7 @@ exports[`App renders without crashing 1`] = `
     </div>
   </nav>
   <div
-    className="dashboard container"
+    className="Dashboard container"
   >
     <div
       className="row"
@@ -92,10 +92,10 @@ exports[`App renders without crashing 1`] = `
         className="col s12 m6"
       >
         <div
-          className="project-list section"
+          className="section ProjectList"
         >
           <div
-            className="card z-depth-0 project-summary"
+            className="card z-depth-0 ProjectSummary"
           >
             <div
               className="card-content grey-text text-darken-3"
@@ -116,7 +116,7 @@ exports[`App renders without crashing 1`] = `
             </div>
           </div>
           <div
-            className="card z-depth-0 project-summary"
+            className="card z-depth-0 ProjectSummary"
           >
             <div
               className="card-content grey-text text-darken-3"
@@ -137,7 +137,7 @@ exports[`App renders without crashing 1`] = `
             </div>
           </div>
           <div
-            className="card z-depth-0 project-summary"
+            className="card z-depth-0 ProjectSummary"
           >
             <div
               className="card-content grey-text text-darken-3"
@@ -158,7 +158,7 @@ exports[`App renders without crashing 1`] = `
             </div>
           </div>
           <div
-            className="card z-depth-0 project-summary"
+            className="card z-depth-0 ProjectSummary"
           >
             <div
               className="card-content grey-text text-darken-3"
@@ -179,7 +179,7 @@ exports[`App renders without crashing 1`] = `
             </div>
           </div>
           <div
-            className="card z-depth-0 project-summary"
+            className="card z-depth-0 ProjectSummary"
           >
             <div
               className="card-content grey-text text-darken-3"
@@ -204,7 +204,9 @@ exports[`App renders without crashing 1`] = `
       <div
         className="col s12 m5 offset-m1"
       >
-        <div>
+        <div
+          className="Notifications"
+        >
           <p>
             Notifications
           </p>

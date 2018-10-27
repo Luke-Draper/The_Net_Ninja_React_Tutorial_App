@@ -2,10 +2,10 @@
 
 exports[`CreateProject renders without crashing 1`] = `
 <div
-  className="create-project"
+  className="CreateProject"
 >
-  <h2>
+  <p>
     CreateProject
-  </h2>
+  </p>
 </div>
 `;

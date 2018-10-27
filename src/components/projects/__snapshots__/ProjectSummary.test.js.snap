@@ -2,7 +2,7 @@
 
 exports[`ProjectSummary renders without crashing 1`] = `
 <div
-  className="card z-depth-0 project-summary"
+  className="card z-depth-0 ProjectSummary"
 >
   <div
     className="card-content grey-text text-darken-3"
