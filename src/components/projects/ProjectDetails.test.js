@@ -4,9 +4,10 @@ import { MemoryRouter } from "react-router-dom"; //Required when component uses 
 import renderer from "react-test-renderer";
 
 test("ProjectDetails renders without crashing", () => {
+	const props = { match: { params: { id: 1 } } };
 	const component = renderer.create(
-		<MemoryRouter initialEntries={["/"]}>
-			<ProjectDetails />
+		<MemoryRouter initialEntries={["/project/1"]}>
+			<ProjectDetails {...props} />
 		</MemoryRouter>
 	);
 	expect(component.toJSON()).toMatchSnapshot();

@@ -13,7 +13,8 @@ exports[`ProjectDetails renders without crashing 1`] = `
       <span
         className="card-title"
       >
-        Project Title
+        Project Title : 
+        1
       </span>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ex quae enim soluta cum, consequuntur provident cupiditate tenetur sunt dignissimos? Quidem delectus atque quaerat cupiditate quisquam sit amet dolore ratione.
